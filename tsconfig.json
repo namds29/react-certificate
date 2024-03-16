@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/storefront/excercise-1/features/Excercise1.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
