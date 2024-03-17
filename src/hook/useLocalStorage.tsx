@@ -29,7 +29,7 @@ const useLocalStorage = (key: string, defaultValue: string) => {
   useEffect(() => {
     //check refresh to set default value
     if (key) {
-      let value = getLocalStorageValue(key, defaultValue);
+      const value = getLocalStorageValue(key, defaultValue);
       setValue(value);
     }
   }, [key, defaultValue]);

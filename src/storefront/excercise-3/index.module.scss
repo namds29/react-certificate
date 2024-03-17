@@ -1,0 +1,17 @@
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_filter */
+
+.filterInput {
+    position: absolute;
+    border: 1px solid black;
+}
+
+.filterInputOption {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    border: 1px solid;
+}
+
+.filterInputOption:hover {
+    background-color: grey;
+}
